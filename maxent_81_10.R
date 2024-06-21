@@ -78,7 +78,7 @@ saveRDS(final_raster_stack_81_10, "final_raster_stack_81_10.rds")
 final_raster_stack_81_10 <- readRDS("final_raster_stack_81_10.rds")
 # Sample occurrence data (replace this with your actual occurrence data)
 #maxent_data <- read.csv("/Users/oisinogailin/Desktop/spatial/finalProject/spatial/maxent_data.csv") # sensitive data
-maxent_data <- read.csv("/Users/oisinogailin/Desktop/Beartooth_Code/Beartooth_Code/Thomomys_clusius_Wyoming_Pocket_Gopher_precise_observations_statewide.csv")
+maxent_data <- read.csv("Thomomys_clusius_Wyoming_Pocket_Gopher_precise_observations_statewide.csv")
 # Convert the obsdate column to Date type if it's not already
 maxent_data$obsdate <- as.Date(maxent_data$obsdate, format="%Y/%m/%d")
 # Keep rows with obsdate after 2010/01/01
